@@ -2,9 +2,7 @@
 
 
 ## EX: Sample code using Functions and Details
-#### Building for source
-
-Code Example:
+#### Building for source code Example:
 
 ```sh
 using System;
@@ -343,3 +341,12 @@ namespace MirukuruStore.ViewModels.Request
      };
  }
   ```
+#### Conclusion of Changes :
+##### 1.SendApiEndpoint Removed Parameters in the New Version:
+- "smsText2" – Previously set to parameters smstext2.
+- "method" – Previously set to USE_IVR.
+
+##### 2.GetResultApiEndpoint  Removed Parameters in the New Version:
+- "smstitle" – Previously included the constant SMS_SENDER_NAME.
+- "status" – Previously set to USE_RETURN_API.
+- "method" – Previously set to USE_IVR.
